@@ -13,7 +13,7 @@ spec:
         - k8scourse.domalys.com
       secretName: k8scourse-com
   rules:
-    - host: k8scourse-com
+    - host: k8scourse.domalys.com
       http:
         paths:
           - path: /?(.*)
